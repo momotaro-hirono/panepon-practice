@@ -1,4 +1,4 @@
-import { Panel, PanelType, GameConfig, Grid } from '../types/game';
+import { Panel, GameConfig, Grid } from '../types/game';
 
 export const createEmptyGrid = (config: GameConfig): Grid => {
   return Array(config.rows).fill(null).map(() =>
